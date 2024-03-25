@@ -1,0 +1,37 @@
+body {
+    background-color: #ffe6f0; /* Soft pembe arka plan */
+    font-family: Helvetica, sans-serif; /* Helvetica yazı tipi */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #ffccdd;
+    padding: 10px;
+    text-align: center;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.col {
+    flex: 1 1 calc(25% - 20px);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+h3 {
+    text-align: center;
+}
